@@ -13,7 +13,7 @@ public class MinimoMaximo {
         System.out.println("Número mayor: " + maximo);
     }
 
-    // Genera un arreglo de números aleatorios en un rango dado.
+    //se genera un arreglo de números aleatorios en un rango dado.
     
     private static int[] generarNumerosAleatorios(int cantidad, int min, int max) {
         Random random = new Random();
@@ -26,7 +26,7 @@ public class MinimoMaximo {
         return numeros;
     }
 
-    //Encuentra el número mínimo del arreglo.
+    //encuentra el número mínimo del arreglo.
      
     private static int encontrarMinimo(int[] arreglo) {
         int minimo = arreglo[0];
@@ -40,7 +40,7 @@ public class MinimoMaximo {
         return minimo;
     }
 
-    //Encuentra el número máximo del arreglo.
+    //encuentra el número máximo del arreglo.
      
     private static int encontrarMaximo(int[] arreglo) {
         int maximo = arreglo[0];
@@ -54,7 +54,7 @@ public class MinimoMaximo {
         return maximo;
     }
 
-    // Imprime el arreglo.
+    //se imprime el arreglo.
      
     private static void imprimirArreglo(int[] arreglo) {
         System.out.println("Números generados:");

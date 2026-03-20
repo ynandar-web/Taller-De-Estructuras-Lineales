@@ -34,7 +34,7 @@ public class Factoriales {
         return numeros;
     }
 
-    // Calcula los factoriales de cada número del arreglo.
+    //se Calcula los factoriales de cada número del arreglo.
      
     private static long[] calcularFactoriales(int[] numeros) {
         long[] factoriales = new long[numeros.length];
@@ -46,7 +46,7 @@ public class Factoriales {
         return factoriales;
     }
 
-    // Calcula el factorial de un número.
+    //se Calcula el factorial de un número.
      
     private static long calcularFactorial(int numero) {
         long resultado = 1;
@@ -58,7 +58,7 @@ public class Factoriales {
         return resultado;
     }
 
-    //imprime numeros enteros 
+    //se imprime numeros enteros 
     private static void imprimirArreglo(String mensaje, int[] arreglo) {
         System.out.println(mensaje);
         for (int num : arreglo) {
@@ -67,7 +67,7 @@ public class Factoriales {
         System.out.println();
     }
 
-    //imprime factoriales 
+    //se imprime factoriales 
     private static void imprimirArreglo(String mensaje, long[] arreglo) {
         System.out.println(mensaje);
         for (long num : arreglo) {
