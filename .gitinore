@@ -1,0 +1,22 @@
+# Archivos compilados de java
+*.class
+*.jar
+*.war
+
+# Carpetas de construccion (build)
+bin/
+out/
+target/
+
+# Configuracion de Visual Studio Code
+.vscode/
+.settings/
+.project
+.classpath
+
+# Archivos temporales del sistema
+Thumbs.db
+.Ds_Store
+
+# Archivos de datos locales
+# *.txt
