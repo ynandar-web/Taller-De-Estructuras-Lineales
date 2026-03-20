@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-public class FrecuenciaNumeros {
+public class FrecuenciaDeNumeros {
 
     public static void main(String[] args) {
         ArrayList<Integer> lista = generarNumeros(100, 1, 20);
